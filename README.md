@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Redux Toolkit In NextJs
+
+In Next.js 13, setting up Redux Toolkit is a breeze. Redux Toolkit is a powerful toolset that simplifies the process of managing state in Redux applications. To integrate Redux Toolkit into your Next.js project, follow these steps:
+
+## Process 
+
+- Process 1: Setup the Redux Store.
+- Process 2: Define Typed Hooks.
+- Process 3: Define Custom Provider
+- Process 4: Provide the Redux Store to layout.tsx in the project 
+- Process 5: Create Redux State Slice and Action Types
+- Process 6: Add Slice Reducer to the Store
+- Process 7: Use Redux State and Actions in the Next.js 13 page inside Directory
+
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js 
+- Next.js (version 13)
+- npm 
+
+### Installation
+
+1. Clone the repository:
+
+run the following command
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone https://github.com/hariprasadoo/ReduxInNextJs.git
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install the dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
 
-## Learn More
+### Development
+To start the development server, run the following command:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Build
+To build the production-ready optimized version of the application, use the following command:
+```bash
+ npm run build
+```
 
-## Deploy on Vercel
+### Acknowledgments
+Inspiration source or credits (if any).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)
+
+
+### Contact
+If you have any questions or suggestions, feel free to contact me at dahal.harry1@gmail.com.
